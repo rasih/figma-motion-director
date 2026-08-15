@@ -1,0 +1,60 @@
+# Licence
+
+This project is dual-licensed, because it contains two different kinds of work.
+
+## Documentation — CC BY 4.0
+
+`SKILL.md`, everything in `references/`, and `ATTRIBUTION.md` are licensed under the
+**Creative Commons Attribution 4.0 International Licence**.
+
+https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt them for any purpose, including commercially, provided you
+give appropriate credit, link to the licence, and indicate if changes were made.
+
+This choice is not arbitrary. The phase architecture of this skill — a router with
+distinct entry points, a mandatory intent phase, recursive scoring against weighted
+criteria with explicit stopping criteria, and a multi-perspective review panel — is
+adapted from the **creative-director** skill by **Serge Shima**, which is licensed
+CC BY 4.0 and requires attribution. Keeping the same licence downstream keeps that
+obligation visible rather than buried.
+
+  creative-director © Serge Shima — https://github.com/smixs/creative-director-skill
+  Licensed CC BY 4.0.
+
+Full credits, including every source behind the duration and easing values, are in
+`ATTRIBUTION.md`.
+
+## Scripts — MIT
+
+Everything in `scripts/` is original code and is licensed under the **MIT Licence**.
+
+Copyright (c) 2026
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the "Software"), to deal in the Software
+without restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be included in all copies
+or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Third-party values
+
+Duration and easing values quoted in `references/` are factual specifications published
+by their owners — Material Design (Apache-2.0), IBM Carbon (Apache-2.0), Atlassian,
+Microsoft Fluent (MIT), and others. Each is cited at the point of use and in
+`ATTRIBUTION.md`. No third-party source code, artwork, or media is redistributed here.
+
+Device frames rendered by `scripts/make_reel.py` are drawn procedurally from primitive
+shapes. They are generic representations, not any manufacturer's industrial design, and
+no device imagery is bundled.
